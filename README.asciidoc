@@ -1,0 +1,31 @@
+# ModsUpdater
+
+An in-game Rain World Mods Updater
+
+This mod can work with or without Steam. +
+It pulls workshop data from AndrewFM's RainDB.
+
+Is is also able to fetch latest release of your mod from github repo, if your mod is not found on Workshop. +
+For this to work, please provide the following line inside modinfo.json: +
+`"update_url": "https://github.com/autodistries/dummymod/releases/latest"` +
+No other services are yet supported.
+
+
+Remix stats menu is the home to update all mods at once. + 
+You can access it by entering the REMIX menu, or by clicking the stats button from the remix menu:
+
+image::images/statsbtn.png[]
+
+Remix stats menu: 
+
+image::images/remixmenu.png[]
+
+In the mods list, update will be shown like this :
+
+image::images/modlistupdate.png[]
+
+Upon hovering a mod (not entering its configuration interface), additional data will be shown:
+
+image::images/modpreview.png[]
+
+Upon update, a mod's folder will be deleted then created again using the mod name.

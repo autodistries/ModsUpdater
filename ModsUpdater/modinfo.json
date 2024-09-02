@@ -1,0 +1,11 @@
+{
+    "id": "nope.modsupdater",
+    "name": "Mods Updater",
+    "version": "0.0.9",
+    "authors": "Nope",
+    "description": "Updates mods, probably",
+    "requirements": [],
+    "requirements_names": [],
+    "checksum_override_version": true,
+    "update_url": "https://github.com/autodistries/ModsUpdater/releases/latest"
+  }
